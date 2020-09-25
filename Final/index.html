@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "styles.css">
+        <script src = "script.js"> </script>
+        <title></title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to Generic Coffee Shoppe!</h1>
+            <nav id="main-nav">
+                <div id="nav-toggle">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="main-nav-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Stores</a></li>
+                    <li><a href="#">Our Message</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+       
+        <button id = "btn-add"><img src = "images/coffee.png" id = "coffee-pic"> + </button>
+        <div id = "coffee-list"></div>
+
+        <div id = "forms">
+            <div id = "add-form" class = "form hidden">
+                <h2>Coffee Information</h2>
+                
+                <p>
+                    <label for="txt-name">Coffee Name:</label>
+                    <input id = "txt-name">
+                </p>
+    
+                <p>
+                    <label for="txt-roast">Coffee Roast:</label>
+                    <input id = "txt-roast">
+                </p>
+    
+                <p>
+                    <label for="txt-price">Coffee Price:</label>
+                    <input id = "txt-price">
+                </p>
+    
+                <p>
+                    <label for="txt-caffeine">Caffeine Strength:</label>
+                    <input id = "txt-caffeine">
+                </p>
+    
+                <p>
+                    <label for="txt-rating">Coffee Rating:</label>
+                    <input id = "txt-rating">
+                </p>
+    
+                <button id = "btn-create-coffee" class = "coffee-buttons">Brew coffee</button>
+            </div>
+    
+            <div id = "edit-form" class = "form hidden">
+                <h2>Change Coffee Information</h2>
+                 <span id = "coffee-id" class="hidden"></span>
+                <p>
+                    <label for="txt-edit-name">Coffee Name:</label>
+                    <input id = "txt-edit-name">
+                </p>
+    
+                <p>
+                    <label for="txt-edit-roast">Coffee Roast:</label>
+                    <input id = "txt-edit-roast">
+                </p>
+    
+                <p>
+                    <label for="txt-edit-price">Coffee Price:</label>
+                    <input id = "txt-edit-price">
+                </p>
+    
+                <p>
+                    <label for="txt-edit-caffeine">Caffeine Strength:</label>
+                    <input id = "txt-edit-caffeine">
+                </p>
+    
+                <p>
+                    <label for="txt-edit-rating">Coffee Rating:</label>
+                    <input id = "txt-edit-rating">
+                </p>
+    
+                <button id = "btn-edit-coffee" class = "coffee-buttons">Re-brew coffee</button>
+            </div>
+        </div>
+
+        <div id ="message" >
+            <section id = "result-message"class = "hidden"></section>
+        </div>
+
+        
+
+
+    </body>
+</html>

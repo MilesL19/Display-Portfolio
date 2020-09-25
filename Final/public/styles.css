@@ -1,0 +1,132 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url('images/shop_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    background:#FFE0C2;
+    padding: 10px 10px; 
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding-left:15px;
+    display: flex;   
+    background:black;
+    justify-content: space-evenly;
+    margin-top: -15px;
+    border-radius: 10px;
+}
+
+#main-nav li {
+    padding:10px;
+    margin:2px 0;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: white;
+    cursor:pointer;
+    border-bottom: 2px solid transparent;
+}
+
+#main-nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+#btn-add {
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    font-size: 26px;
+    background-color: #FFE0C2;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.coffee-buttons {
+    transition-duration: 0.4s;
+    background-color: #FFE0C2;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.coffee-buttons:hover, #btn-add:hover {
+    background-color: #FFBA75;
+}
+
+.hidden {
+    display:none;
+}
+
+#forms {
+    display: inline-flex;
+}
+
+.form {
+    background: #CC955E;
+    box-shadow:5px 5px #805D3B;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.form label {
+    width:100%;
+    text-align:right;
+    padding-right:5px;
+    font-weight: bold;
+}
+
+.form input {
+   width: 80%;
+}
+
+#coffee-list {
+    display: flex;
+    background: #FFE0C2;
+    border-radius: 10px;
+    box-shadow:5px 5px#CC955E;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.coffee {
+    width:30%;
+    background:#CC955E;
+    padding:5px;
+    margin:5px;
+    border-radius: 5px;;
+}
+
+.coffee a {
+    text-decoration: none;
+    transition-duration: 5.4;
+    color: black;
+}
+
+.coffee a:hover {
+    color: white;
+}
+
+#result-message {
+    background: #FFE0C2;
+    border-radius: 10px;
+    box-shadow:5px 5px#CC955E;
+    font-size: 18px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+#message {
+    display: flex;
+}
+
+#coffee-pic {
+    height: 50px;
+    width: 50px;
+}
